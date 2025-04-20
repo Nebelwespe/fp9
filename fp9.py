@@ -6,9 +6,9 @@ import os
 from pathlib import Path
 
 dotenv_path = Path(__file__).resolve().parent / ".env"  #forces it to load .env files
-print("Does .env exist?", os.path.exists(dotenv_path))  #forces it to check for .env files
+print("Does .env exist?", os.path.exists(dotenv_path))  #tells user if env file exists and gives a true or false
 
-load_dotenv(dotenv_path=dotenv_path, override=True)
+load_dotenv(dotenv_path=dotenv_path, override=True) 
 apikey = os.getenv("OPENAI_API_KEY")
 
 if apikey:

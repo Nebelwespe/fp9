@@ -1,5 +1,6 @@
 # fp9
-School file for friday project 9
+Lauren Scott
+Friday Project 9
 
 To make file work, create a file called .env in the same folder and add your OPENAI API key. Format is as follows:
 
